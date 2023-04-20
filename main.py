@@ -75,16 +75,9 @@ def get_random_color():
 client = WeChatClient(app_id, app_secret)
 wm = WeChatMessage(client)
 
-# for i in range(len(user_ids)):
-#     wea, tem = get_weather(citys[i])
-#     cit, dat = get_city_date(citys[i])
+for i in range(len(user_ids)):
     data = {
-        "title1": {"value": "今日日期", "color": get_random_color()},
-        "content1": {"value": "当前城市", "color": get_random_color()}
+        "title1": {"value": "今日日期", "color": get_random_color()}
     }
-#     if get_birthday(birthdays[i]) == 0:
-#         data["birthday_left"]['value'] = "今天是她的生日哦，快去一起甜蜜吧"
-#     if get_solary(solarys[i]) == 0:
-#         data["solary"]['value'] = "今天发工资啦，快去犒劳一下自己吧"
     res = wm.send_template(user_ids[i], template_ids[i], data)
     print(res)
