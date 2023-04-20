@@ -25,19 +25,18 @@ def get_random_color():
 client = WeChatClient(app_id, app_secret)
 wm = WeChatMessage(client)
 
+msg_title = '测试标题'
+msg_content = '测试内容测试内容测试内容测试内容测试内容测试内容测试内容测试内容测试内容测试内容'
+
 for i in range(len(user_ids)):
-#     data = {
-#         "title1": {"value": "今日日期", "color": get_random_color()},
-#         "content1": {"value": "哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈", "color": get_random_color()}
-#     }
     data = {
-        "title1": {"value": "title", "color":"#A8A8A8"},
-		"title2": {"value": "通知内容:\t\t\t\t", "color":"#A8A8A8"},
-		"title3": {"value": "通知时间:\t\t\t\t", "color":"#A8A8A8"},
-		"title4": {"value": "备注:\t\t\t\t", "color":"#A8A8A8"},
-		"content1": {"value": "` + Msg + `\n"},
-		"content2": {"value": "{}\n".format(today)},
-		"content3": {"value":"本次推送由yangqu支持\n"}
+        "title1": {"value": "{}".format(msg_title), "color":"#A8A8A8"},
+	"title2": {"value": "通知内容:\t\t\t\t", "color":"#A8A8A8"},
+	"title3": {"value": "通知时间:\t\t\t\t", "color":"#A8A8A8"},
+	"title4": {"value": "备注:\t\t\t\t", "color":"#A8A8A8"},
+	"content1": {"value": "{}\n".format(msg_content)},
+	"content2": {"value": "{}\n".format(today)},
+	"content3": {"value":"本次推送由yangqu支持\n"}
     }
     res = wm.send_template(user_ids[i], template_ids[i], data)
     print(res)
