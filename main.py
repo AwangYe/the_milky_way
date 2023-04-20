@@ -80,13 +80,7 @@ wm = WeChatMessage(client)
 #     cit, dat = get_city_date(citys[i])
     data = {
         "title1": {"value": "今日日期", "color": get_random_color()},
-        "content1": {"value": "当前城市", "color": get_random_color()},
-#         "weather": {"value": "今日天气：{}".format(wea), "color": get_random_color()},
-#         "temperature": {"value": "当前温度：{}".format(tem), "color": get_random_color()},
-#         "love_days": {"value": "今天是你们在一起的第{}天".format(get_count(start_dates[i])), "color": get_random_color()},
-#         "birthday_left": {"value": "距离她的生日还有{}天".format(get_birthday(birthdays[i])), "color": get_random_color()},
-#         "solary": {"value": "距离发工资还有{}天".format(get_solary(solarys[i])), "color": get_random_color()},
-#         "words": {"value": get_words(), "color": get_random_color()}
+        "content1": {"value": "当前城市", "color": get_random_color()}
     }
 #     if get_birthday(birthdays[i]) == 0:
 #         data["birthday_left"]['value'] = "今天是她的生日哦，快去一起甜蜜吧"
