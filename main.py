@@ -75,9 +75,9 @@ def get_random_color():
 client = WeChatClient(app_id, app_secret)
 wm = WeChatMessage(client)
 
-for i in range(len(user_ids)):
-    wea, tem = get_weather(citys[i])
-    cit, dat = get_city_date(citys[i])
+# for i in range(len(user_ids)):
+#     wea, tem = get_weather(citys[i])
+#     cit, dat = get_city_date(citys[i])
     data = {
         "title1": {"value": "今日日期", "color": get_random_color()},
         "content1": {"value": "当前城市", "color": get_random_color()},
