@@ -39,5 +39,5 @@ for i in range(len(user_ids)):
 	"content3": {"value":"本次推送由yangqu支持\n"}
     }
     res = wm.send_template(user_ids[i], template_ids[i], data)
-    res1 = wm._text(user_ids[i], "打卡成功\n内容1\n内容2")
+    res1 = wm.send_text(user_ids[i], "打卡成功\n内容1\n内容2")
     print(res)
