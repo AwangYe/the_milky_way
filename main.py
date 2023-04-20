@@ -36,7 +36,7 @@ for i in range(len(user_ids)):
 		"title3": {"value": "通知时间:\t\t\t\t", "color":"#A8A8A8"},
 		"title4": {"value": "备注:\t\t\t\t", "color":"#A8A8A8"},
 		"content1": {"value": "` + Msg + `\n"},
-		"content2": {"value": "` + time + `\n"},
+		"content2": {"value": "{}\n".format(today)},
 		"content3": {"value":"本次推送由yangqu支持\n"}
     }
     res = wm.send_template(user_ids[i], template_ids[i], data)
