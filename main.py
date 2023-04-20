@@ -14,7 +14,7 @@ app_id = os.environ["APP_ID"]
 app_secret = os.environ["APP_SECRET"]
 
 # 可把os.environ结果替换成字符串在本地调试
-# user_ids = os.environ["USER_ID"].split(',')
+user_ids = os.environ["USER_ID"].split(',')
 # template_ids = os.environ["TEMPLATE_ID"].split(',')
 # citys = os.environ["CITY"].split(',')
 # solarys = os.environ["SOLARY"].split(',')
