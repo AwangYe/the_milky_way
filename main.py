@@ -46,3 +46,4 @@ for i in range(len(user_ids)):
     	res1 = wm.send_text(user_ids[i], "打卡成功\n内容1\n内容2")
     except WeChatClientException as e:
     	print(e)
+	print(type(e))
