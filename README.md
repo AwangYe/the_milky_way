@@ -1,18 +1,18 @@
 # 微信公众号定时推送消息
 
-![GitHub repo size](https://img.shields.io/github/repo-size/QInzhengk/the_milky_way?style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/QInzhengk/the_milky_way?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/QInzhengk/the_milky_way?style=for-the-badge)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/QInzhengk/the_milky_way?style=for-the-badge)
-![Bitbucket  issues](https://img.shields.io/github/issues-closed/QInzhengk/the_milky_way?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/AwangYe/the_milky_way?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/AwangYe/the_milky_way?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/AwangYe/the_milky_way?style=for-the-badge)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/AwangYe/the_milky_way?style=for-the-badge)
+![Bitbucket  issues](https://img.shields.io/github/issues-closed/AwangYe/the_milky_way?style=for-the-badge)
 
 ## 📒 简介
 
 > :smiley: 通过GitHub Actions给微信公众测试号定时推送消息（Python）。
 
-## 🤝 [博客](https://github.com/qzkq/qzkq.github.io)
+## 🤝 [通过github.io展示详细内容](https://github.com/AwangYe/AwangYe.github.io)
 
-[the_milky_way](https://qzkq.github.io/)
+[测试链接](https://awangye.github.io/?title=%E6%B5%8B%E8%AF%95%E6%A0%87%E9%A2%98&date=2023-04-24%2003%3A01%3A50.243834&cont=%E6%B5%8B%E8%AF%95%E5%86%85%E5%AE%B9%E6%B5%8B%E8%AF%95%E5%86%85%E5%AE%B9%E6%B5%8B%E8%AF%95%E5%86%85%E5%AE%B9%E6%B5%8B%E8%AF%95%E5%86%85%E5%AE%B9%E6%B5%8B%E8%AF%95%E5%86%85%E5%AE%B9%E6%B5%8B%E8%AF%95%E5%86%85%E5%AE%B9%E6%B5%8B%E8%AF%95%E5%86%85%E5%AE%B9%E6%B5%8B%E8%AF%95%E5%86%85%E5%AE%B9%E6%B5%8B%E8%AF%95%E5%86%85%E5%AE%B9%E6%B5%8B%E8%AF%95%E5%86%85%E5%AE%B9)
 
 ## 📫 如何参与开源项目
 
