@@ -36,7 +36,7 @@ for i in range(len(user_ids)):
     values['title'] = msg_title
     values['date'] = today
     values['cont'] = msg_content
-    url = url + urllib.parse.urlencode(values)
+    url = url + urllib.parse.quote( urllib.parse.urlencode(values) )
     
     data = {
         "title1": {"value": "{}".format(msg_title), "color":"#A8A8A8"},
