@@ -6,6 +6,7 @@ import requests
 from datetime import date, datetime
 from wechatpy import WeChatClient
 from wechatpy.client.api import WeChatMessage, WeChatTemplate
+from wechatpy.exceptions import WeChatClientException
 
 today = datetime.now()
 
