@@ -9,7 +9,7 @@ from wechatpy import WeChatClient
 from wechatpy.client.api import WeChatMessage, WeChatTemplate
 from wechatpy.exceptions import WeChatClientException
 
-today = datetime.now()
+today = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
 # 微信公众测试号ID和SECRET
 app_id = os.environ["APP_ID"]
