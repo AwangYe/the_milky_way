@@ -40,12 +40,12 @@ for i in range(len(user_ids)):
     
     data = {
         "title1": {"value": "{}".format(msg_title), "color":"#A8A8A8"},
-	    "title2": {"value": "通知内容:\t\t\t\t", "color":"#A8A8A8"},
+	"title2": {"value": "通知内容:\t\t\t\t", "color":"#A8A8A8"},
         "title3": {"value": "通知时间:\t\t\t\t", "color":"#A8A8A8"},
-		"title4": {"value": "备注:\t\t\t\t", "color":"#A8A8A8"},
-		"content1": {"value": "{}\n".format(msg_content)},
-		"content2": {"value": "{}\n".format(today)},
-		"content3": {"value":"回复任意消息重新启用文本通知模式\n"}
+	"title4": {"value": "备注:\t\t\t\t", "color":"#A8A8A8"},
+	"content1": {"value": "{}\n".format(msg_content)},
+	"content2": {"value": "{}\n".format(today)},
+	"content3": {"value":"回复任意消息重新启用文本通知模式\n"}
     }
     res = wm.send_template(user_ids[i], template_ids[i], data, url)
     print(res)
