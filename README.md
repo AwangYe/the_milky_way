@@ -38,14 +38,6 @@
         </sub>
       </a>
     </td>
-    <td align="center">
-      <a href="">
-        <img src="" width="100px;"/><br>
-        <sub>
-          <b></b>
-        </sub>
-      </a>
-    </td>
   </tr>
 </table>
 
